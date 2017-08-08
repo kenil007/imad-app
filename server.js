@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
 app.get('/a1',function(req,res){
   res.send("article one served here");  
 });
-app.get('/a1',function(req,res){
-  res.send("article one served here");  
+app.get('/a',function(req,res){
+  res.send("article two served here");  
 });
 
 app.get('/ui/style.css', function (req, res) {
