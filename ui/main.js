@@ -19,7 +19,7 @@ var cut=0;
  }
 img.onclick = function(){
    
-    var interval = setInterval(right,10);
+    var interval = setInterval(right,100);
     
     console.log('inside');
 };
