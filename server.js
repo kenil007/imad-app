@@ -24,7 +24,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/ui/main.js',function(req,res){
-    res.sendfile(path.join(__dirnae,'ui','min.js'));
+    res.sendfile(path.join(__dirnae,'ui','main.js'));
 });
 
 
