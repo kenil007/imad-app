@@ -15,6 +15,19 @@ app.get('/45',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'article-1.html'));  
 });
 
+app.get('/article-one',function(req,res){
+    
+  res.send("article one  served")  
+    
+});
+
+app.get('/article-two',function(req,res){
+    
+  res.send("article 2  served")  
+    
+});
+
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
